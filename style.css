@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+ 
+    
+}
+body {
+    background-image: url(../live-class-project-5/assets/bg.png);
+}
+
+.logo {
+    border-right: 1px solid white;
+    padding: 10px 40px;
+    width: 80px;
+    margin: 10px 1px;
+
+    
+}
+
+
+.navbar {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    margin-top: 0;
+
+}
+
+
+
+.navbar > div {
+    display: inline-block;
+    
+}
+li {
+    list-style: none;
+    display: inline-block;
+    
+}
+.grow-list {
+    position: relative;
+    width: 800px;
+    top: -30px;
+    right: -60px;
+    
+    
+    
+    
+}
+.list > li{
+   margin:  10px 40px;
+   
+}
+.button-small {
+    border: none;
+    background-color: #ba0cc5;
+    position: relative;
+    top: -30px;
+    right: -300px;
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: white;
+
+}
+.hero{
+    
+   
+    padding-top: 10%;
+     height: 100vh;
+     
+}
+.hero-heading {
+
+   text-align: center;
+   color: white;
+   font-size: 64px;
+   padding-left: 18%;
+   padding-right: 18%;
+   line-height: 80px;
+
+}
+.hero-description {
+    text-align: center;
+    color: white;
+    font-size: 26px;
+}
+.button-large {
+   
+    display: block;
+    margin: auto;
+    width: 290px;
+    height: 50px;
+    color: white;
+    font-size: 24px;
+    background-color: #ba0cc5;
+    border: none;
+    border-radius: 8px;
+    margin-top: 40px;
+    padding: 4px;
+}
+
+
+.arrow {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 4px;
+    transform: rotate(45deg);
+}
+  
+  
